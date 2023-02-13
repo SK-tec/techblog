@@ -10,7 +10,77 @@
 </head>
 <body>
     <header><h1>Welcome to Tech Blog Project</h1></header>
-    <main></main>
+    <main>
+        <section class="introduction container">
+            <h2 class="text-warning">Introduction</h2>
+            <p><strong>React Router</strong>  is a standard library for routing in <strong>React</strong>. Before, going into details let's see what is Routing?
+                Routing is a process in which a user is directed to different pages based on their request.It is mainly used for developing <strong>Single Page Web Application</strong>s.Most of the social media websites like Facebook, Instagram uses React Router for rendering multiple views.
+               
+            </p>
+            <h3 class="text-warning">Need of React Router?<span style='font-size:60px;'>&#129300;</span></h3>
+            <p>React app by default doesn't include page routing.Without React Router, it is not possible to display multiple views in React applications.</p>
+        </section>
+        <section class="installation container">
+            <h3>How to Add React Router ?</h3>
+                <ol>
+                    <li>To add React Router in your application, run this in the terminal from the root directory of the application: <br>
+                         <div><span  style="background-color: rgb(182, 190, 190);color:orangered">npm i react-router-dom</span></div>
+                    </li>
+                    <li>After installing,you need to add its components to your React application.To add React Router components, open your project directory in the editor you use and go to <strong>app.js</strong> file. Now, add the below given code in app.js.</li>
+                        <div class="container border">
+                            import { <br>
+                            Routes,<br>
+                            Route,<br>
+                            NavLink<br>
+                        } from 'react-router-dom';<br>
+                        </div>
+                    </li>
+                    <li>And add the <strong>BrowserRouter</strong> to <strong>index.js</strong><br>
+                        <div>
+                            <img src="./images/BrowserRouter.JPG" alt="">
+                        </div>
+                    </li>
+                    <li>
+                      To use React Router, let us first create few components in the react application. 
+                      In your project directory, create a folder named component inside the <strong>src</strong> folder and now add 3 files named <strong>Home.js</strong>, <strong>About.js</strong> and <strong>Contact.js </strong> to the component folder.After creacting your componets the 
+                      folder structure looks as follows:
+                      <img src="./images/Folderstructure.JPG" alt="">
+                    </li>
+                    <li>Now, Let's add some code to our 3 components</li>
+                    <li>Add the following code to <strong>Home.js</strong>
+                        <div class="container border">
+                           <img src="./images/Home.JPG" alt="">
+                        </div>
+                    </li>
+                    <li>Add the following code to <strong>About.js</strong>
+                        <div class="container border">
+                           <img src="./images/About.JPG" alt="">
+                        </div>
+                    </li>
+                    <li>Add the following code to <strong>Contact.js</strong>
+                        <div class="container border">
+                           <img src="./images/Contact.JPG" alt="">
+                        </div>
+                    </li>
+                    <li>Let's add the <strong> React Router</strong> components to the application
+                        <div>
+                            <img src="./images/Router.JPG" alt="">
+                        </div>                            
+                    </li>                  
+                    <li>Now, we you can click on the links and navigate to different components.We have successfully implemented navigation in our React application using React Router.</li>
+                </ol>
+
+        </section>
+        <section>
+            <div class="container border">
+               <h4>Happy Coding 😊</h4>
+               <div class="container">Sample ouput:             
+                <img src="./images/output2.JPG" alt="" width="800px">
+               </div>
+               Github Link: 
+            </div>
+        </section>
+    </main>
     <footer></footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>  
 </body>
