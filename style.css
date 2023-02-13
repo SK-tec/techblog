@@ -1,3 +1,108 @@
-html,body{
+/* navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .navbar-nav {
+    list-style: none;
     margin: 0;
-}
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-left: 1rem;
+  }
+  
+  .nav-link {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    color: #007bff;
+  }
+  </style>
+
+
+  /* footer.css */
+
+
+footer {
+    background-color: #f7f7f7;
+    color: #333;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
+  footer a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #007bff;
+  }
+  
+  footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  
+  footer .container p {
+    margin: 0;
+  }
+  
+  footer .container .d-flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  footer .container .d-flex a {
+    margin-right: 20px;
+    transition: all 0.2s;
+  }
+  
+  footer .container .d-flex a:last-of-type {
+    margin-right: 0;
+  }
+  
+  footer .container .d-flex a:hover i {
+    transform: scale(1.2);
+  }
+
+  .fab.fa-pinterest {
+    color: #E60023;
+    }
+  
+    .fab.fa-facebook {
+        color: #3b5998;
+    }
+
+    .fab.fa-github {
+        color: #171515
+    }
+
+    .fab.fa-twitter {
+        color:  #00acee
+    }
+
+    .fa.fa-instagram {
+        color:
