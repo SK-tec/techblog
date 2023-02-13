@@ -59,11 +59,6 @@ body {
     color: #007bff;
   }
 
-  
-  
-  
-  
-  </style>
 
 
   /* footer.css */
@@ -103,7 +98,7 @@ footer {
   }
   
   footer .container .d-flex a {
-    margin-right: 20px;
+    margin-right: 0px;
     transition: all 0.2s;
   }
   
@@ -131,3 +126,22 @@ footer {
         color:  #00acee
     }
 
+    .fab.fa-instagram{
+        color: white;
+        background: radial-gradient(
+            circle at 33% 100%,
+            #fed373 4%,
+            #F15245 30%,
+            #D92E7F 62%,
+            #9B36B7 85%,
+            #515ecf
+            );
+            width: 33px;
+            height: 33px;
+            border-radius: 25px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+          }
+    
+    
