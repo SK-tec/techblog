@@ -1,4 +1,27 @@
+
+
+body {
+    font-family: 'Bebas Neue', sans-serif;
+  }
+
 /* navbar.css */
+
+.btn {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+
+  }
+
+  .btn-outline-primary {
+    color: black;
+    border-color: black;
+  }
+
+  .btn-primary {
+    color: white;
+    background-color: black;
+    border-color: black;
+  }
 
 .navbar {
     display: flex;
@@ -35,11 +58,15 @@
   .nav-link:hover {
     color: #007bff;
   }
+
+  
+  
+  
+  
   </style>
 
 
   /* footer.css */
-
 
 footer {
     background-color: #f7f7f7;
@@ -104,5 +131,3 @@ footer {
         color:  #00acee
     }
 
-    .fa.fa-instagram {
-        color:
